@@ -37,7 +37,7 @@ packer build templates/ventura-monoxer.pkr.hcl
 ```
 
 ```
-xcodes install 14.2 --experimental-unxipß
+xcodes install 14.2 --experimental-unxip
 xcodes select 14.2
 sudo xcodebuild -runFirstLaunch
 brew install swiftlint
