@@ -35,3 +35,9 @@ packer build -var vm_name=ventura-vanilla templates/disable-sip.pkr.hcl
 packer build templates/monterey-monoxer.pkr.hcl
 packer build templates/ventura-monoxer.pkr.hcl
 ```
+
+```
+xcodes install 14.2 --experimental-unxipß
+xcodes select 14.2
+sudo xcodebuild -runFirstLaunch
+```
