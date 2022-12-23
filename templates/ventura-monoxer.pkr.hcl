@@ -83,7 +83,7 @@ build {
     inline = [
       "source ~/.zprofile",
       "brew tap monoxer/monoxer",
-      "brew install carthage fastlane monoxer-cocoapods monoxer-rome swiftlint"
+      "brew install carthage fastlane monoxer-cocoapods monoxer-rome"
     ]
   }
 }
