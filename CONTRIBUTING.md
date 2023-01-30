@@ -77,6 +77,7 @@ brew install swiftlint
 長時間接続を維持しなければならないので、有線接続の上、電源に接続し、スリープしない設定にすることを推奨します。
 
 ```
+XCODE_VERSION=14.2
 MACOS_VERSION=13.2
 TAG=$XCODE_VERSION-$MACOS_VERSION
 PROJECT_ID=xxxx
