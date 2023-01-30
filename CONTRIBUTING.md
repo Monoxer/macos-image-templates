@@ -93,6 +93,7 @@ tart push ventura-monoxer asia-northeast1-docker.pkg.dev/${PROJECT_ID}/monoxer-g
 XCODE_VERSION=14.2
 MACOS_VERSION=13.2
 PROJECT_ID=xxxx
+TAG=$XCODE_VERSION-$MACOS_VERSION
 gcloud auth print-access-token | tart login asia-northeast1-docker.pkg.dev --username oauth2accesstoken --password-stdin
 tart clone asia-northeast1-docker.pkg.dev/${PROJECT_ID}/monoxer-ghactions/macos-ventura-monoxer:$TAG ventura-monoxer:$TAG
 ```
