@@ -20,7 +20,7 @@ source "tart-cli" "tart" {
 
 variable "gha_version" {
   type =  string
-  default = "2.299.1"
+  default = "2.301.1"
 }
 
 build {
